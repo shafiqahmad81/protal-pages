@@ -1,0 +1,343 @@
+section {
+  padding: 0 126px;
+
+  .hero-section {
+    margin-top: 120px;
+    width: 100%;
+    max-width: 100%;
+
+    .container {
+      display: flex;
+      align-items: center;
+      z-index: 9 !important;
+      width: 1240px;
+      max-width: 100%;
+
+      .hero-content {
+        width: calc(1240px - 53.46774193548387%);
+        max-width: 100%;
+        margin-right: 47px;
+        z-index: 9;
+
+        h1 {
+          font-weight: 700;
+          font-size: 60px;
+          line-height: 70px;
+          background: linear-gradient(280.13deg, #FFFFFF 34.25%, rgba(255, 255, 255, 0) 104.39%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+        }
+
+        p {
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 25px;
+          letter-spacing: 0.01em;
+          color: #FFFFFF;
+          opacity: 0.6;
+        }
+      }
+
+      .streaming-img {
+        img {
+          width: 100%;
+          z-index: 9 !important;
+        }
+      }
+    }
+  }
+
+  // product- section style
+
+  .product-section,
+  .content-section {
+    margin-top: 120px;
+
+    .product-content {
+      width: calc(1240px - 54.19354838709677%);
+      z-index: 9;
+      margin-left: auto;
+      text-align: inherit;
+      position: relative;
+
+
+
+      h1 {
+        font-weight: 600;
+        font-size: 46px;
+        line-height: 56px;
+        background: linear-gradient(280.13deg, #FFFFFF 34.25%, rgba(255, 255, 255, 0) 104.39%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+
+        letter-spacing: 0.01em;
+
+        color: #FFFFFF;
+
+        opacity: 0.6;
+      }
+    }
+
+    .product-item-1 {
+      z-index: 9;
+
+      .container {
+        display: flex;
+        align-items: center;
+
+        .product-img {
+          margin-right: 80px;
+          z-index: 9;
+
+          img {
+            width: 100%;
+            margin-left: 40px;
+          }
+        }
+
+
+      }
+    }
+
+    .product-item-2 {
+      margin-top: 145px;
+
+      .advantage {
+        .service-content {
+          width: 450px !important;
+        }
+
+        h2 {
+          margin-left: 0;
+        }
+
+        .number {
+          margin-left: -55px;
+        }
+
+        .advantage-img,
+        .right {
+          margin-left: auto;
+        }
+
+        .right {
+          margin-right: 0 !important;
+        }
+      }
+
+      .container {
+        display: flex;
+        align-items: center;
+
+
+
+        .service-content {
+          width: calc(1240px - 670px);
+          margin-right: 60px;
+        }
+
+        figure {
+          z-index: 9;
+          position: relative;
+
+          &::before {
+            position: absolute;
+            content: "";
+            width: 16px;
+            height: 16px;
+            background: #5ED6E8;
+            opacity: 0.4;
+            border-radius: 20px;
+            top: 20px;
+            right: 43%;
+
+          }
+
+          &::after {
+            position: absolute;
+            content: "";
+            width: 29px;
+            height: 29px;
+            background: #5ED6E8;
+            opacity: 0.2;
+            border-radius: 20px;
+            bottom: -23px;
+            left: 35%;
+          }
+
+          img {
+            width: 100%;
+
+          }
+
+          .blank {
+
+            &::before {
+              position: absolute;
+              content: "";
+              width: 9px;
+              height: 9px;
+              background: #5ED6E8;
+              opacity: 0.3;
+              border-radius: 20px;
+              top: 24%;
+              left: 8%;
+            }
+
+
+          }
+        }
+      }
+    }
+
+    .viewers {
+      .container {
+
+        .service-content {
+          margin-right: 0;
+          margin-left: auto;
+        }
+
+        figure {
+          margin-left: 34px;
+          margin-right: 150px;
+
+          &::before {
+            width: 32px;
+            height: 32px;
+            opacity: 0.12;
+            top: 20px;
+            left: -34px;
+
+          }
+
+          &::after {
+            width: 54px;
+            height: 54px;
+            opacity: 0.12;
+            border-radius: 35px;
+            bottom: 5%;
+            left: 100% !important;
+          }
+        }
+      }
+    }
+  }
+
+  .container.service-section figure .blank-2::before {
+    position: absolute;
+    content: "";
+    width: 69px;
+    height: 69px;
+    background: #5ED6E8;
+    opacity: 0.12;
+    border-radius: 36px;
+    top: 0;
+    right: -80px;
+  }
+
+
+  .content-section {
+    width: 100%;
+
+    .title-content {
+      width: 700px;
+      text-align: center;
+      margin: 0 auto;
+
+      .content {
+        z-index: 9;
+      }
+
+    }
+
+    .content-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+
+      .bg-1 {
+        position: absolute;
+        top: -330px;
+      }
+
+    }
+
+    .product-item-1 {
+      margin-top: 170px;
+
+      .portal {
+        .product-content {
+          margin-left: auto inherit;
+        }
+
+        .product-img {
+          margin-left: auto;
+        }
+      }
+
+    }
+
+  }
+
+  .pepole-join {
+    text-align: center;
+    margin-top: 316px;
+    z-index: 9 !important;
+    position: relative;
+
+    h2 {
+      font-weight: 600;
+      font-size: 46px;
+      line-height: 58px;
+      color: #FFFFFF;
+      margin-top: 18px;
+    }
+
+    p {
+      width: 750px;
+      margin: 0 auto;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 28px;
+      text-align: center;
+      letter-spacing: 0.01em;
+      color: #FFFFFF;
+      opacity: 0.6;
+    }
+
+    .contact {
+      background: radial-gradient(100% 100% at 0% 0%, rgba(94, 214, 232, 0.3) 0%, rgba(94, 214, 232, 0) 100%);
+      box-shadow: inset -5px -5px 250pxrgba(255, 255, 255, 0.02);
+      backdrop-filter: blur(42px);
+      border-radius: 10px;
+      padding: 15px 27px;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: 0.01em;
+      color: #5ED6E8;
+      opacity: 0.9;
+      border: none;
+      margin-top: 40px;
+    }
+
+    figure.bg-3 {
+      position: absolute;
+      top: -250px;
+      left: 0;
+      right: 0;
+    }
+
+
+  }
+}

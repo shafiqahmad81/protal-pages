@@ -1,0 +1,43 @@
+.content-item {
+    width: 276px;
+    margin-right: 20px;
+    background: rgb(43 46 47 / 30%);
+    border-radius: 30px;
+    padding: 44px 40px 30px 38px;
+    margin-top: 40px;
+    z-index: 9;
+
+    .content-img {
+        width: 100px;
+        height: 100px;
+        background-color: rgb(94 214 232 / 10%);
+        border-radius: 50%;
+        text-align: center;
+        margin-left: 47px;
+
+        img {
+            margin-top: 30px;
+        }
+    }
+
+    h4 {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+        text-align: center;
+        margin: 22px 0 10px;
+
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 23px;
+        text-align: center;
+        letter-spacing: 0.01em;
+        color: #FFFFFF;
+        opacity: 0.6;
+    }
+}

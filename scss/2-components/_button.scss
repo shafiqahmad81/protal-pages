@@ -1,0 +1,57 @@
+.btn-outline-primary {
+  color: #0d6efd;
+  background: rgba(106, 103, 255, 0.2);
+  border: none;
+  padding: 8px 21px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.01em;
+  margin-bottom: 26px;
+  border-radius: 10px;
+
+  &:focus {
+    box-shadow: none;
+  }
+
+  &:hover {
+    color: #0d6efd;
+    background-color: rgba(106, 103, 255, 0.2);
+    border-color: none;
+  }
+}
+
+.more {
+  width: 156px;
+  height: 58px;
+  border: 0;
+  border-radius: 10px;
+  background: transparent;
+
+  /*The background extends to the outside edge of the padding. No background is drawn beneath the border.*/
+  // background-clip: padding-box;
+  // border: solid 8px transparent;
+  // border-radius: 0.8rem;
+  position: relative;
+  z-index: 3;
+  color: #5ED6E8 !important;
+  box-shadow: inset 5px 5px 250px rgb(170 200 140 / 20%);
+
+  &:before {
+    content: "";
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+    border-radius: 8px;
+    background: #020202;
+    opacity: 0.8;
+    z-index: -1;
+  }
+
+  span {
+    color: currentColor;
+  }
+
+}

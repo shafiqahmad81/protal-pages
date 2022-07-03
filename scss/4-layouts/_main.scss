@@ -1,0 +1,18 @@
+main {
+  width: 100%;
+  background-color: #020202;
+  margin: 0 auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+
+
+  .container {
+    padding: 0;
+  }
+
+
+  .light {
+    -webkit-text-fill-color: #5ED6E8;
+  }
+}
