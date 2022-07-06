@@ -9,7 +9,6 @@ section {
     .container {
       display: flex;
       align-items: center;
-      z-index: 9 !important;
       width: 1240px;
       max-width: 100%;
 
@@ -40,9 +39,11 @@ section {
       }
 
       .streaming-img {
+        z-index: 9;
+
         img {
           width: 100%;
-          z-index: 9 !important;
+
         }
       }
     }

@@ -1,0 +1,28 @@
+.icon {
+  width: 50px;
+  height: 2px;
+  background: #ddd;
+  position: relative;
+  display: none;
+
+
+  &::after {
+    position: absolute;
+    content: "";
+    height: 2px;
+    background: #ddd;
+    top: 12px;
+    left: 0;
+    right: 0;
+  }
+
+  &::before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    background: #ddd;
+    top: -12px;
+    left: 0;
+    right: 0;
+  }
+}

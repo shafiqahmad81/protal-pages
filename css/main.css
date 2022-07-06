@@ -10253,7 +10253,7 @@ textarea.form-control-lg {
   width: 900px;
   height: 900px;
   background: #6A67FF;
-  opacity: 0.6;
+  opacity: 0.15;
   filter: blur(424px);
   left: -480px;
   top: -320px;
@@ -10265,7 +10265,7 @@ textarea.form-control-lg {
   width: 900px;
   height: 900px;
   background: #6A67FF;
-  opacity: 0.6;
+  opacity: 0.15;
   filter: blur(424px);
   right: -510px;
   top: 530px;
@@ -10277,7 +10277,7 @@ textarea.form-control-lg {
   width: 900px;
   height: 900px;
   background: #6A67FF;
-  opacity: 0.6;
+  opacity: 0.15;
   filter: blur(424px);
   left: -510px;
   top: 1080px;
@@ -10289,7 +10289,7 @@ textarea.form-control-lg {
   width: 900px;
   height: 900px;
   background: #6A67FF;
-  opacity: 0.6;
+  opacity: 0.2;
   filter: blur(424px);
   right: -510px;
   top: 1700px;
@@ -10301,7 +10301,7 @@ textarea.form-control-lg {
   width: 900px;
   height: 900px;
   background: #6A67FF;
-  opacity: 0.6;
+  opacity: 0.2;
   filter: blur(424px);
   left: -510px;
   top: 2654px;
@@ -10313,7 +10313,7 @@ textarea.form-control-lg {
   width: 900px;
   height: 900px;
   background: #6A67FF;
-  opacity: 0.6;
+  opacity: 0.2;
   filter: blur(424px);
   right: -510px;
   top: 3370px;
@@ -10325,7 +10325,7 @@ textarea.form-control-lg {
   width: 900px;
   height: 900px;
   background: #6A67FF;
-  opacity: 0.6;
+  opacity: 0.2;
   filter: blur(424px);
   left: -510px;
   top: 4600px;
@@ -10337,7 +10337,7 @@ textarea.form-control-lg {
   width: 900px;
   height: 900px;
   background: #6A67FF;
-  opacity: 0.6;
+  opacity: 0.2;
   filter: blur(424px);
   right: -510px;
   top: 5680px;
@@ -10349,7 +10349,7 @@ textarea.form-control-lg {
   width: 900px;
   height: 900px;
   background: #6A67FF;
-  opacity: 0.6;
+  opacity: 0.15;
   filter: blur(424px);
   left: -439px;
   top: 6640px;
@@ -10361,10 +10361,36 @@ textarea.form-control-lg {
   width: 900px;
   height: 900px;
   background: #6A67FF;
-  opacity: 0.6;
+  opacity: 0.15;
   filter: blur(424px);
   right: -264px;
   top: 7392px;
+}
+
+.icon {
+  width: 50px;
+  height: 2px;
+  background: #ddd;
+  position: relative;
+  display: none;
+}
+.icon::after {
+  position: absolute;
+  content: "";
+  height: 2px;
+  background: #ddd;
+  top: 12px;
+  left: 0;
+  right: 0;
+}
+.icon::before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  background: #ddd;
+  top: -12px;
+  left: 0;
+  right: 0;
 }
 
 main {
@@ -10499,7 +10525,6 @@ section .hero-section {
 section .hero-section .container {
   display: flex;
   align-items: center;
-  z-index: 9 !important;
   width: 1240px;
   max-width: 100%;
 }
@@ -10526,9 +10551,11 @@ section .hero-section .container .hero-content p {
   color: #FFFFFF;
   opacity: 0.6;
 }
+section .hero-section .container .streaming-img {
+  z-index: 9;
+}
 section .hero-section .container .streaming-img img {
   width: 100%;
-  z-index: 9 !important;
 }
 section .product-section,
 section .content-section {
@@ -10943,11 +10970,32 @@ section .pepole-join figure.bg-3 {
   .main-menu {
     padding: 54px 20px 0 20px;
   }
+  .main-menu nav {
+    display: block;
+  }
   .main-menu nav ul {
+    width: 100%;
+    background: #3a2424;
+    margin-top: 20px;
     display: none;
+  }
+  .main-menu nav ul li {
+    display: inherit;
+    padding: 5px;
+    text-align: center;
+  }
+  .main-menu nav .menu.active {
+    display: block;
   }
   .main-menu nav .contuct {
     display: none;
+  }
+  .main-menu .icon {
+    display: block;
+    margin-top: -16px;
+    position: absolute;
+    top: 86px;
+    right: 25px;
   }
   section {
     padding: 0 20px;
@@ -10957,7 +11005,6 @@ section .pepole-join figure.bg-3 {
   }
   section .hero-section .container .streaming-img {
     margin-top: 20px;
-    z-index: 9;
   }
   section .hero-section .container .hero-content h1, section .hero-section .container .hero-content .h1 {
     font-size: 50px;
