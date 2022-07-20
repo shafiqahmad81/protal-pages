@@ -10395,6 +10395,7 @@ textarea.form-control-lg {
 
 main {
   width: 100%;
+  min-width: 300px;
   background-color: #020202;
   margin: 0 auto;
   overflow: hidden;
@@ -10874,6 +10875,60 @@ section .pepole-join figure.bg-3 {
   margin-left: 30px;
 }
 
+@media all and (max-width: 991px) {
+  .main-menu nav {
+    display: inherit;
+  }
+  .main-menu nav ul {
+    display: none;
+  }
+  .main-menu nav .contuct {
+    display: none;
+  }
+  .main-menu nav {
+    display: block;
+  }
+  .main-menu nav ul {
+    width: 100%;
+    margin-top: 20px;
+    display: none;
+  }
+  .main-menu nav ul li {
+    display: inherit;
+    padding: 5px;
+    text-align: center;
+  }
+  .main-menu nav ul li:hover {
+    background: #641616;
+  }
+  .main-menu nav .menu.active {
+    display: block;
+  }
+  .main-menu nav .contuct {
+    display: none;
+  }
+  .main-menu .icon {
+    display: block;
+    margin-top: -16px;
+    position: absolute;
+    top: 86px;
+    right: 126px;
+  }
+  section .hero-section .container .hero-content {
+    width: 100%;
+    margin-right: 16px;
+  }
+  section .hero-section .container .hero-content h1,
+section .hero-section .container .hero-content .h1 {
+    font-size: 33px;
+  }
+  section .product-section .product-content h1, section .product-section .product-content .h1 {
+    font-size: 33px;
+  }
+  section .product-section .product-content {
+    width: 100%;
+  }
+}
 @media all and (max-width: 375px) {
   .overly-1:after {
     width: 630px;
