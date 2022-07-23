@@ -50,22 +50,85 @@
     }
   }
 
+  section .hero-section .container {
+    display: inherit;
+
+    .streaming-img {
+      margin-top: 20px;
+    }
+  }
+
+  section .product-section .product-item-1 .container {
+    display: inherit;
+
+    .product-img {
+      margin-right: 0;
+      margin-bottom: 20px;
+
+      img {
+        margin-left: 0;
+      }
+    }
+  }
+
   section .hero-section .container .hero-content {
     width: 100%;
     margin-right: 16px;
   }
 
-  section .hero-section .container .hero-content h1,
-  section .hero-section .container .hero-content .h1 {
-    font-size: 33px;
+  section .product-section .product-item-2 .container {
+    display: inherit;
+    align-items: center;
   }
 
-  section .product-section .product-content h1 {
-    font-size: 33px;
+  section .product-section .viewers .container .service-content {
+    margin: 0;
+    margin-top: 20px;
   }
 
-  section .product-section .product-content {
-    width: 100%;
+  section .product-section .product-item-2 .container figure {
+    margin-top: 20px;
+  }
+
+  section .content-section .product-item-1 .container {
+    display: inherit;
+
+    .product-img {
+      margin: 0;
+
+      img {
+        margin: 0;
+      }
+    }
+  }
+
+  section .content-section .product-item-2 .container {
+    display: inherit;
+  }
+
+  section .content-section .product-item-2 .advantage .right {
+    margin-left: 0;
+  }
+
+  figure.looper-bg-6 {
+    display: none;
+  }
+
+  section .content-section .product-content {
+    width: inherit;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+
+  section .product-section {
+    .viewers .container figure {
+      margin: 0;
+    }
+
+    .product-content {
+      width: 100%;
+    }
   }
 }
 
@@ -73,7 +136,7 @@
 
 @media all and (min-width: 480px) and (max-width: 768px) {}
 
-@media all and (max-width: 375px) {
+@media all and (max-width: 767px) {
 
   //============ overly style=============
 
@@ -222,9 +285,13 @@
       display: block;
       margin-top: -16px;
       position: absolute;
-      top: 86px;
-      right: 25px;
+      top: 30px;
+      right: 0;
     }
+  }
+
+  main .container {
+    position: relative;
   }
 
   section {
@@ -310,12 +377,7 @@
 
         .content-item {
           width: 100%;
-
-          .content-img {
-            margin-left: 78px;
-          }
         }
-
       }
 
       .product-item-1 .container {
@@ -362,7 +424,7 @@
 
   .footer-area {
     margin-top: 100px;
-    padding: 0 42px 42px 42px;
+    padding: 42px 42px 42px;
 
     .footer-wigets {
       display: inherit;
